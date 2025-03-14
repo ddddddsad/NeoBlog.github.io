@@ -1,2 +1,2 @@
 # NeoBlog
-https://ddddddsad.github.io/NeoBlog.github.io/
+https://ddddddsad.github.io/NeoBlog/
