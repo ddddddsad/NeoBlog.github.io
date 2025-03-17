@@ -161,6 +161,24 @@ a {
     margin-bottom: 10px;
 }
 
+/* 作用在 <p> 标签上的整体缩进和上下空隙 */
+.article-content p {
+    padding-left: 1ch; /* 整体缩进两个字符 */
+    padding-right: 1ch; /* 整体缩进两个字符 */
+    line-height: 24px;
+    margin-top: 1em; /* 上方留出小空隙 */
+    margin-bottom: 1em; /* 下方留出小空隙 */
+}
+
+/* 为 <span class="points"> 添加额外样式 */
+.points {
+    padding-left: 4ch; /* 整体缩进两个字符 */
+    display: inline-block; /* 使 span 保持为行内块级元素 */
+    margin-top: 0.3em; /* 给 span 上方留空隙 */
+    margin-bottom: 0.3em; /* 给 span 下方留空隙 */
+}
+
+
 /* 文章标签 */
 .article-tags a {
     background-color: #007bff; /* 设置标签背景颜色为蓝色 */
